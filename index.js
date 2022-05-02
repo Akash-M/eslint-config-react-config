@@ -6,7 +6,7 @@ module.exports = {
     "plugin:ordered-imports/recommended",
     "plugin:@typescript-eslint/eslint-recommended",
     "plugin:@typescript-eslint/recommended",
-    "plugin:prettier/recommended",
+    // "plugin:prettier/recommended",
     "plugin:react/recommended"
   ],
   "settings": {
