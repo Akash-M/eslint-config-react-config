@@ -1,17 +1,35 @@
 {
   "name": "eslint-config-react-config",
-  "version": "0.0.1",
-  "author": "Akash-M<akash.manjunath@gmail.com>",
-  "description": "",
+  "version": "0.0.5",
+  "author": "Akash-M <akash.manjunath@gmail.com>",
+  "description": "Eslint configuration containing commonly used react settings",
   "main": "index.js",
-  "scripts": {},
-  "keywords": ["eslint", "config"],
+  "scripts": {
+    "publish:public": "npm publish --access public"
+  },
+  "keywords": [
+    "eslint",
+    "config"
+  ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/Akash-M/eslint-config-react-config.git"
+    "url": "git+https://github.com/Akash-M/eslint-config-react-config.git"
   },
   "peerDependencies": {
-    "eslint": ">= 3"
+    "@typescript-eslint/eslint-plugin": "^5.3.0",
+    "@typescript-eslint/parser": "^5.3.0",
+    "eslint": ">= 3",
+    "eslint-friendly-formatter": "^4.0.1",
+    "eslint-plugin-jest": "^26.1.5",
+    "eslint-plugin-ordered-imports": "^0.6.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.28.0",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "eslint-plugin-sort-destructure-keys": "^1.4.0"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Akash-M/eslint-config-react-config/issues"
+  },
+  "homepage": "https://github.com/Akash-M/eslint-config-react-config#readme"
 }
