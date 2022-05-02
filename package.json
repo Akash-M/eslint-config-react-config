@@ -1,17 +1,24 @@
 {
   "name": "eslint-config-react-config",
   "version": "0.0.1",
-  "author": "Akash-M<akash.manjunath@gmail.com>",
-  "description": "",
+  "author": "Akash-M <akash.manjunath@gmail.com>",
+  "description": "Eslint configuration containing commonly used react settings",
   "main": "index.js",
   "scripts": {},
-  "keywords": ["eslint", "config"],
+  "keywords": [
+    "eslint",
+    "config"
+  ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/Akash-M/eslint-config-react-config.git"
+    "url": "git+https://github.com/Akash-M/eslint-config-react-config.git"
   },
   "peerDependencies": {
     "eslint": ">= 3"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Akash-M/eslint-config-react-config/issues"
+  },
+  "homepage": "https://github.com/Akash-M/eslint-config-react-config#readme"
 }
