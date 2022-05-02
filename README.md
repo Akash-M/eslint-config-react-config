@@ -1,6 +1,7 @@
 # eslint-plugin-react-config
 
-Specific ESLint configuration for React projects based on Typescript.
+Specific ESLint configuration for React projects based on Typescript. The setup is based on the guidelines provided
+by the official [eslint documentation](https://eslint.org/docs/developer-guide/shareable-configs).
 
 It applies the `recommended` rules from:
 
@@ -79,3 +80,15 @@ yarn eslint .
 ESLint will lint all relevant files within the current folder, and output results.
 
 Most IDEs via a ESLint plugin will also give these results.
+
+
+## Publishing package
+
+To update the ruleset and publish as a public npm package, first authenticate yourself via npm and then run: 
+
+```sh
+npm run publish:public
+```
+
+The package should then be available for public installation and usage. Further information about publishing npm 
+packages can be found [here](https://docs.npmjs.com/packages-and-modules/contributing-packages-to-the-registry)
