@@ -1,13 +1,13 @@
 {
   "name": "eslint-config-react-config",
-  "version": "0.0.5",
+  "version": "0.0.1",
   "author": "Akash-M <akash.manjunath@gmail.com>",
   "description": "Eslint configuration containing commonly used react settings",
   "main": "index.js",
   "scripts": {
-    "publish:public": "npm publish --access public",
     "postinstall": "yes | yarn husky install",
-    "prepare": "yes | yarn husky install"
+    "prepare": "yes | yarn husky install",
+    "publish-package": "yarn publish --access public"
   },
   "keywords": [
     "eslint",
