@@ -5,7 +5,9 @@
   "description": "Eslint configuration containing commonly used react settings",
   "main": "index.js",
   "scripts": {
-    "publish:public": "npm publish --access public"
+    "publish:public": "npm publish --access public",
+    "postinstall": "yes | yarn husky install",
+    "prepare": "yes | yarn husky install"
   },
   "keywords": [
     "eslint",
