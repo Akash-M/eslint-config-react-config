@@ -58,11 +58,27 @@ yarn add eslint-friendly-formatter \
             --dev
 ```
 
-To add this configuration:
+To import configuration for react:
 
 ```js
 module.exports = {
-  extends: ['eslint-config-react-config'],
+  extends: ['eslint-config-react-config/react'],
+};
+```
+
+To import configuration for jest:
+
+```js
+module.exports = {
+  extends: ['eslint-config-react-config/jest'],
+};
+```
+
+To import configuration for typescript:
+
+```js
+module.exports = {
+  extends: ['eslint-config-react-config/typescript'],
 };
 ```
 
