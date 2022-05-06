@@ -1,10 +1,8 @@
 module.exports = {
   extends: [
-    'plugin:eslint-comments/recommended',
     'plugin:import/recommended',
     'plugin:ordered-imports/recommended',
     'plugin:promise/recommended',
-    'plugin:unicorn/recommended',
     'prettier',
   ],
   env: {
