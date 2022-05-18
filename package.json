@@ -1,12 +1,10 @@
 {
   "name": "eslint-config-react-frontend",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Akash-M <akash.manjunath@gmail.com>",
   "description": "Eslint configuration containing rule set for react, jest and typescript projects",
   "main": "index.js",
   "scripts": {
-    "postinstall": "yes | yarn husky install",
-    "prepare": "yes | yarn husky install",
     "publish-package": "npm publish --access public"
   },
   "keywords": [
